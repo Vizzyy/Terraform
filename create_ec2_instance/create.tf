@@ -3,6 +3,7 @@ terraform {
     bucket = "vizzyy-terraform"
     key    = "create/terraform.tfstate"
     region = "us-east-1"
+    dynamodb_table = "terraform-lock"
   }
 }
 
